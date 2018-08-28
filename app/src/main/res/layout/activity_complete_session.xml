@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteSessionActivity">
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="257dp"
+        android:layout_height="116dp"
+        android:text="CheckedTextView"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Selected Sessions Complete"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="113dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="301dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Signature"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="451dp" />
+</android.support.constraint.ConstraintLayout>
