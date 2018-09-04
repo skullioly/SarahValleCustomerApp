@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SarahValleCustomerApp</string>
+    <string name="user_name">Logged In:</string>
 </resources>

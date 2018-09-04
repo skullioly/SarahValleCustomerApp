@@ -21,4 +21,10 @@
         android:text="Create New Session"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="183dp" />
+
+    <fragment
+        android:id="@+id/fragment_username"
+        android:name="android.bignerdranch.com.sarahvallecustomerapp.fragment_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </android.support.constraint.ConstraintLayout>
