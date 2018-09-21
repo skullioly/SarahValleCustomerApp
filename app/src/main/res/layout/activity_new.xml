@@ -6,16 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".NewActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="239dp"
         android:layout_height="38dp"
-        android:text="Enter customer @string/app_name"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="39dp" />
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="80dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/takePhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Take Photo"
@@ -23,7 +22,7 @@
         tools:layout_editor_absoluteY="159dp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/saveCustomer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save Customer"
