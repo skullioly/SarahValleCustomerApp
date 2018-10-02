@@ -21,6 +21,15 @@ public class CustomerActivity extends AppCompatActivity {
         configurepaymentButton();
     }
 
+    private void configuresessionManagerButton() {
+        Button sessionManagerButton = (Button) findViewById(R.id.sessionManagerButton);
+        sessionManagerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CustomerActivity.this, SessionActivity.class));
+            }
+        });
+    }
     private void configurepaymentButton() {
         Button paymentButton = (Button) findViewById(R.id.paymentButton);
         paymentButton.setOnClickListener(new View.OnClickListener() {
@@ -31,15 +40,7 @@ public class CustomerActivity extends AppCompatActivity {
         });
     }
 
-    private void configuresessionManagerButton() {
-        Button sessionManagerButton = (Button) findViewById(R.id.sessionManagerButton);
-        sessionManagerButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(CustomerActivity.this, SessionActivity.class));
-            }
-        });
-    }
+
 
     private void configureNewCustomerButton() {
         Button newCustomerButton = (Button) findViewById(R.id.newCustomerButton);
@@ -61,10 +62,10 @@ public class CustomerActivity extends AppCompatActivity {
         });
 
     }
-    @Override
+ /*   @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.fragment_logoff, menu);
         return true;
-    }
+    }*/
 
 }

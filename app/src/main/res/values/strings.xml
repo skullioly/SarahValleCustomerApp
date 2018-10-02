@@ -2,4 +2,26 @@
     <string name="app_name">SarahValleCustomerApp</string>
     <string name="user_name">Logged In:</string>
     <string name="log_off">LogOff</string>
+    <string name="display_customers">Display Customers</string>
+    <string name="new_customer">New Customer</string>
+    <string name="session_manager">Session Manager</string>
+    <string name="payment">Payment</string>
+    <string name="todo">TODO</string>
+    <string name="view_sessions">View Sessions</string>
+    <string name="new_session">New Session</string>
+    <string name="complete_session">Complete Session</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="save_customer">Save Customer</string>
+    <string name="enter_customer_name">Enter customer name</string>
+    <string name="enter_session_information">Enter Session Information</string>
+    <string name="create_new_session">Create New Session</string>
+    <string name="checkedtextview">CheckedTextView</string>
+    <string name="mark_selected_sessions_complete">Mark Selected Sessions Complete</string>
+    <string name="save_signature">Save Signature</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="address">Address</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="submit_payment">Submit Payment</string>
+    <string name="create_receipt">Create Receipt</string>
 </resources>

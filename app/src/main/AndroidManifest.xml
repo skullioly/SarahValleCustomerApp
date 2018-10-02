@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.bignerdranch.com.sarahvallecustomerapp">
 
+
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,11 +24,15 @@
         <activity android:name=".DisplayActivity" />
         <activity android:name=".NewActivity" />
         <activity android:name=".NewSessionActivity" />
-        <activity android:name=".PaymentActivity"></activity>
+        <activity android:name=".PaymentActivity" />
         <activity android:name=".SessionActivity" />
         <activity android:name=".ViewListContents" />
+        <activity android:name=".fragment_logoff" />
+
 
 
     </application>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
 
 </manifest>

@@ -9,22 +9,24 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="166dp"
-        android:layout_height="48dp"
-        android:text="Enter Session Information"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="69dp" />
+        android:layout_height="0dp"
+        android:layout_marginBottom="66dp"
+        android:layout_marginTop="69dp"
+        android:text="@string/enter_session_information"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create New Session"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="183dp" />
+        android:layout_marginBottom="336dp"
+        android:text="@string/create_new_session"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <fragment
-        android:id="@+id/fragment_username"
-        android:name="android.bignerdranch.com.sarahvallecustomerapp.fragment_username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 </android.support.constraint.ConstraintLayout>
